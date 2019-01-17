@@ -6,6 +6,6 @@ export const fetchPosts = () => async dispatch => {
   // dispatches this object when functino has been ran
   dispatch({
     type: 'FETCH_POSTS',
-    payload: response
+    payload: response.data
   });
 };
